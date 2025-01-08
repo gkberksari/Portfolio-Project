@@ -5,35 +5,23 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "Word Bank",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
-    getImageSrc: () => require("../images/photo1.jpg"),
+      "A real-time multiplayer word game where players compete by finding words in specific categories. Built with Node.js, Express.js, MySQL, and Socket.IO.",
+    getImageSrc: () => require("../images/word-bank.png"),
   },
   {
-    title: "React Infinite Scroll",
+    title: "My Portfolio Project",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
-  },
-  {
-    title: "Photo Gallery",
-    description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
-  },
-  {
-    title: "Event planner",
-    description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
+    "A responsive personal portfolio website showcasing projects and skills. Built with React, Chakra UI, and Formik for form management.",
+        getImageSrc: () => require("../images/portfolio-project.png"),
   },
 ];
 
 const ProjectsSection = () => {
   return (
     <FullScreenSection
-      backgroundColor="#14532d"
+      backgroundColor="#2D3748"
       isDarkBackground
       p={8}
       alignItems="flex-start"
