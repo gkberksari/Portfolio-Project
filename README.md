@@ -1,9 +1,7 @@
-```markdown
 # Personal Portfolio Website
 
 A responsive personal portfolio website showcasing my projects and developer journey. Built with React.js and enhanced with Chakra UI for a polished, modern design that emphasizes user experience.
 
-![Portfolio Preview](project-preview.png) <!-- İsterseniz proje ekran görüntüsü ekleyebilirsiniz -->
 
 ## Features
 
@@ -92,10 +90,6 @@ Feel free to reach out to me through the contact form on the website or directly
 - GitHub: [@gkberksari](https://github.com/gkberksari)
 - LinkedIn: [Gökberk Sarı](https://www.linkedin.com/in/g%C3%B6kberk-sar%C4%B1-735955311/)
 - Email: gokberksarihr@gmail.com
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgments
 
