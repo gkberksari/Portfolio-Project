@@ -24,7 +24,7 @@ const socials = [
   },
   {
     icon: faMedium,
-    url: "https://medium.com/@gokberksarihr",
+    url: "https://medium.com/@gokberksari",
   },
 ];
 
