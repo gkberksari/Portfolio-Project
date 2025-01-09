@@ -20,7 +20,7 @@ const socials = [
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com/in/g%C3%B6kberk-sar%C4%B1-735955311/",
+    url: "https://www.linkedin.com/in/gokberksari",
   },
   {
     icon: faMedium,
