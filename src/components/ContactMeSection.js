@@ -88,16 +88,18 @@ const ContactMeSection = () => {
               </FormControl>
 
               <FormControl>
-                <FormLabel htmlFor="type">Type of enquiry</FormLabel>
+               <FormLabel htmlFor="type">Type of enquiry</FormLabel>
                 <Select 
-                  id="type" 
-                  name="type"
-                  {...formik.getFieldProps('type')}
-                >
-                  <option value="hireMe">Freelance project proposal</option>
-                  <option value="openSource">Open source consultancy session</option>
-                  <option value="other">Other</option>
-                </Select>
+                id="type" 
+                name="type"
+                {...formik.getFieldProps('type')}
+               >
+              <option value="jobOpportunity">Job Opportunity</option>
+              <option value="internship">Internship Opportunity</option>
+              <option value="projectCollaboration">Project Collaboration</option>
+              <option value="mentorship">Mentorship Request</option>
+              <option value="other">Other</option>
+              </Select>
               </FormControl>
 
               <FormControl 
