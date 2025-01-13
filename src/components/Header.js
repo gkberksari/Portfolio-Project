@@ -82,7 +82,11 @@ const Header = () => {
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
         <HStack
-          px={16}
+          px={{ 
+            base: 4,     // Mobil: daha az padding
+            md: 8,       // Tablet: orta padding
+            lg: 16       // Desktop: orijinal padding
+          }}
           py={4}
           justifyContent="space-between"
           alignItems="center"
