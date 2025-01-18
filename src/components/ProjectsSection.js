@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Word Bank",
     description:
-      "A real-time multiplayer word game where players compete by finding words in specific categories. Built with Node.js, Express.js, MySQL, and Socket.IO.",
+      "A real-time multiplayer word game where players compete by finding words in specific categories. Built with React.js, Express.js, MySQL, and Socket.IO.",
     getImageSrc: () => require("../images/word-bank.png"),
   },
   {
